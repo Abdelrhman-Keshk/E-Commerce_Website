@@ -22,7 +22,7 @@ const Register = () => {
                         <Form.Label>Password</Form.Label>
                         <Form.Control type="password" placeholder="Password" />
                     </Form.Group>
-                    <span>Already has an account? <Link to={'/login'} className='link-info'>Login</Link></span>
+                    <span>Already has an account? <Link to={'/E-Commerce_Website/login'} className='link-info'>Login</Link></span>
                     <button className="btn btn-secondary d-block mt-3 mx-auto">Register</button>
                 </Form>
             </div>

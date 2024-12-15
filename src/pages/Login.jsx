@@ -18,7 +18,7 @@ const Login = () => {
                         <Form.Label>Password</Form.Label>
                         <Form.Control type="password" placeholder="Password" />
                     </Form.Group>
-                    <p>New Here? <Link to={'/register'} className='link-info'>Register</Link></p>
+                    <p>New Here? <Link to={'/E-Commerce_Website/register'} className='link-info'>Register</Link></p>
                     <button className="btn btn-secondary d-block mt-3 mx-auto">Login</button>
                 </Form>
             </div>
