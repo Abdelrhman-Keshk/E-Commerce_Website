@@ -4,7 +4,7 @@ const Main = () => {
     return (
         <div className="px-2">
             <Card className="bg-dark text-white border-0">
-                <Card.Img src={'./E-Commerce_Website/assets/images/main.jpg'} alt="Card image" />
+                <Card.Img src={`${process.env.PUBLIC_URL}/assets/images/main.webp`} alt="Card image" />
                 <Card.ImgOverlay className="d-flex align-items-center justify-content-center">
                     <div>
                         <Card.Title className="fs-1 fw-light">Welcome to our store</Card.Title>
